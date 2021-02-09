@@ -4,11 +4,42 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>RBOT.CSS</title>
+	
     <link href="style.css" rel="stylesheet" type="text/css" />
+	
+	 <div class="topnav text">
+		<a class="brand" href="#">RBOTCSS</a>
+		<div class="topnavitem">
+		 <a class="active topnavitem" href="#">Home</a>
+  <a class="topnavitem" href="#demo">Demo</a>
+  <a class="topnavitem" href="#usage">Usage Guide</a>
+  <a class="topnavitem" href="https://github.com/CoolCoderSJ/rbot.css" target="_blank">Github</a>
+  </div>
+</div> 
+
   </head>
   <body>
 	  <script src="script.js"></script>
-	  <h1 class="text">Header</h1>
+	  
+	  <h1 class="text" style="padding-top: 80px;">RBOTCSS</h1>
+<pre><code class="language-css">/*
+* RBOTCSS, Copyright 2021 Shuchir Jain
+* https://repl.it/@CoolCoderSJ/rbotcss#style.css
+* https://github.com/CoolCoderSJ/rbot.css
+* https://repl.it/@CoolCoderSJ
+* https://github.com/CoolCoderSJ
+*/
+</code></pre>
+<br><br>
+<p class="text">
+A blue themed custom stylesheet fit for most websites. Write simple webpages with beautiful CSS.</p>
+
+<h2 class="text">Usage</h2>
+<p class="text">Install the stylesheet for your html files - </p>
+<pre><code class="language-html">&lt;link href=&quot;https://rbotcss.coolcodersj.repl.co/style.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+</code></pre>
+
+	  <h1 class="text" id="demo">Header</h1>
 	  <h2 class="text">Header</h2>
 	  <h3 class="text">Header</h3>
 	  <h4 class="text">Header</h4>
@@ -169,7 +200,79 @@ for (i = 0; i < coll.length; i++) {
 <br>
 <br>
 <hr class="hr">
-<h5 class="text footer"><a href="https://github.com/CoolCoderSJ/rbot.css" class="link">Github</a></h5>
 
+
+<h1 class="text" id="usage">Classes and tags to use -</h1>
+<p class="text">Headers and paragraph - <code>class: text</code></p>
+<pre><code class="language-html">&lt;p class=&quot;text&quot;&gt;Lorem Ipsum....&lt;/p&gt;
+</code></pre>
+<p class="text">Centered Text - <code>class: center</code></p>
+<pre><code class="language-html">&lt;p class=&quot;text center&quot;&gt;Lorem Ipsum....&lt;/p&gt;
+</code></pre>
+<p class="text">Horizontal Rule - <code>class: hr</code></p>
+<pre><code class="language-html">&lt;hr class=&quot;hr&quot;/&gt;
+</code></pre>
+<p class="text">Links - <code>class: link</code></p>
+<pre><code class="language-html">&lt;a href=&quot;https://github.com/CoolCoderSJ/rbot.css&quot; class=&quot;link&quot;&gt;View on Github&lt;/a&gt;
+</code></pre>
+<p class="text">Unordered list - <code>class: ul</code></p>
+<pre><code class="language-html">&lt;ul class=&quot;ul&quot;&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+<p class="text">Ordered list - <code>class: ol</code></p>
+<pre><code class="language-html">&lt;ol class=&quot;ol&quot;&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+<p class="text">Fieldset - <code>class: fieldset</code></p>
+<pre><code class="language-html">&lt;fieldset class=&quot;fieldset&quot;&gt;&lt;/fieldset&gt;
+</code></pre>
+<p class="text">Inputs - <code>class: input</code></p>
+<pre><code class="language-html">&lt;input type=&quot;text&quot; class=&quot;input&quot;/&gt;
+</code></pre>
+<p class="text">Textarea - <code>class: textarea</code></p>
+<pre><code class="language-html">&lt;textarea class=&quot;textarea&quot;&gt;&lt;/textarea&gt;
+</code></pre>
+<p class="text">Button - <code>class: btn</code></p>
+<pre><code class="language-html">&lt;button class=&quot;btn&quot;&gt;&lt;/button&gt;
+</code></pre>
+<p class="text">Select Boxes - <code>class: select</code></p>
+<pre><code class="language-html">&lt;select class=&quot;select&quot;&gt;
+  &lt;option&gt;&lt;/option&gt;
+&lt;/select&gt;
+</code></pre>
+<p class="text">Blockquotes - <code>tag: blockquote</code></p>
+<pre><code class="language-html">&lt;blockquote&gt;&lt;/blockquote&gt;
+</code></pre>
+<p class="text">Code - <code>tag: code</code></p>
+<pre><code class="language-html">&lt;code&gt;CTRL + F&lt;/code&gt;
+&lt;!-- OR... --&gt;
+&lt;pre&gt;
+&lt;code&gt;
+/*
+* RBOTCSS, Copyright 2021 Shuchir Jain
+* https://repl.it/@CoolCoderSJ/rbotcss#style.css
+* https://github.com/CoolCoderSJ/rbot.css
+* https://repl.it/@CoolCoderSJ
+* https://github.com/CoolCoderSJ
+*/
+&lt;/code&gt;
+&lt;/pre&gt;
+</code></pre>
+<p class="text">Tables - <code>tag: table</code></p>
+<pre><code class="language-html">&lt;table class=&quot;text&quot;&gt;
+&lt;tr&gt;
+    &lt;th&gt;Firstname&lt;/th&gt;
+    &lt;th&gt;Lastname&lt;/th&gt;
+    &lt;th&gt;Age&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+</code></pre>
+<p class="text">Footer - <code>multiple tags</code></p>
+<pre><code class="language-html">&lt;hr class=&quot;hr&quot;&gt;
+&lt;h5 class=&quot;text&quot;&gt;FOOTER&lt;/h5&gt;
+</code></pre>
   </body>
+
 </html>

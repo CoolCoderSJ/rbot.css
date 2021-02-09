@@ -173,3 +173,45 @@ tr:nth-child(odd) {
 .footer {
 	text-align: center;
 }
+
+.topnav {
+  overflow: hidden;
+  padding-bottom: 25px;
+  padding-top: 10px;
+  background-color: #152251;
+
+}
+
+.topnav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 8px;
+}
+
+.topnavitem a:hover {
+  background-color: #253c8d;
+  border-radius: 8px;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #203379;
+  border-radius: 8px;
+  color: white;
+}
+
+.brand {
+	padding-right: 30px !important;
+	font-size: 25px !important;
+}
